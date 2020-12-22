@@ -1,0 +1,61 @@
+/* #container {
+  width: 100%;
+  margin: 0 auto;
+  height: 1000px;
+  position: relative;
+} */
+
+h1,
+h3 {
+  color: black;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 7rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+#container {
+  position: absolute;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.navig {
+  /* position: fixed;
+  top: 0;
+  right: 0; */
+}
+.present {
+  /* position: fixed;
+  top: 10%;
+  left: 5%; */
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.footer {
+  /* margin-top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 0.9rem; */
+}
+
+.overflow-container div {
+  margin: 2rem;
+}
+@media only screen and (min-width: 100px) and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+}
